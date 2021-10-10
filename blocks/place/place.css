@@ -1,0 +1,35 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+  column-gap: 40px;
+  row-gap: 48px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+    padding-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .place {
+      padding-left: 0;
+      padding-bottom: 80px;
+      column-gap: 32px;
+      width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+      padding-bottom: 73px;
+      column-gap: 28px; 
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+      padding-bottom: 50px;
+      row-gap: 32px;
+  }
+}
