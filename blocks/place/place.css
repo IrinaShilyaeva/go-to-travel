@@ -23,18 +23,18 @@
 
 @media (max-width: 768px) {
   .place {
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
     padding-bottom: 73px;
-    column-gap: 28px; 
+    row-gap: 38px;
+    column-gap: 10px; 
     max-width: 720px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .place {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-      padding-bottom: 50px;
-      row-gap: 32px;
-      max-width: 320px;
+    padding-bottom: 50px;
+    row-gap: 32px;
   }
 }

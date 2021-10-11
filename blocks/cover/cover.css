@@ -39,7 +39,7 @@
 }
 @media (max-width: 768px) {
   .cover {
-    min-height: 480px;
+    min-height: 380px;
   } 
 }
   
