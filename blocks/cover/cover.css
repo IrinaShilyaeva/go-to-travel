@@ -34,17 +34,17 @@
 
 @media (max-width: 1024px) {
   .cover {
-    max-width: calc(100% + (48px * 2));
+    max-width: 1024px;
   }
 }
 @media (max-width: 768px) {
   .cover {
-    max-width: calc(100% + (24px * 2));
+    min-height: 480px;
   } 
 }
   
 @media (max-width: 320px) {
   .cover {
-      
+    min-height: 200px;
   }
 }

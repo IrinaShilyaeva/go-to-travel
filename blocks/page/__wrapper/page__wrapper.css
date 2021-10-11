@@ -8,12 +8,14 @@
 
 @media (max-width: 768px) {
     .page__wrapper {
-        max-width: calc(100% - (24px * 2));
+        max-width: 100%;
+        /* max-width: calc(100% - (24px * 2)); */
     }
 }
 
 @media (max-width: 320px) {
     .page__wrapper {
-        max-width: calc(100% - (16px * 2));
+        max-width: 100%;
+        /* max-width: calc(100% - (16px * 2)); */
     }
 }
