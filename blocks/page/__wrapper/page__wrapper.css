@@ -6,16 +6,20 @@
     margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+    .page__wrapper {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .page__wrapper {
         max-width: 100%;
-        /* max-width: calc(100% - (24px * 2)); */
     }
 }
 
 @media (max-width: 320px) {
     .page__wrapper {
         max-width: 100%;
-        /* max-width: calc(100% - (16px * 2)); */
     }
 }

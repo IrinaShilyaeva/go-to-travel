@@ -8,7 +8,7 @@
   background-size: cover;
   max-width: 1184px;
   min-height: 740px;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   z-index: 1;
   object-fit: contain;
@@ -34,17 +34,12 @@
 
 @media (max-width: 1024px) {
   .cover {
-    position: relative;
-    right: 48px;
-    width: calc(100% + 48px);
     min-height: 640px;
   }
 }
 @media (max-width: 768px) {
   .cover {
     min-height: 480px;
-    position:static;
-    right: 0;
   } 
 }
   
