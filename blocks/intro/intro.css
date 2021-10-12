@@ -1,9 +1,9 @@
 .intro {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 690px;
+    width: 690px;
     padding-top: 92px;
     padding-bottom: 92px;
     padding-left: 100px;

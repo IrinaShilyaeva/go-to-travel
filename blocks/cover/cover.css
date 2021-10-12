@@ -2,7 +2,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
@@ -34,12 +34,17 @@
 
 @media (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    position: relative;
+    right: 48px;
+    width: calc(100% + 48px);
+    min-height: 640px;
   }
 }
 @media (max-width: 768px) {
   .cover {
-    min-height: 380px;
+    min-height: 480px;
+    position:static;
+    right: 0;
   } 
 }
   

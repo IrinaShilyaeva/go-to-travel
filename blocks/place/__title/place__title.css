@@ -17,6 +17,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px; 
+    white-space: pre-wrap;
   }
 }
 
@@ -25,5 +26,6 @@
     font-size: 32px;
     line-height: 35px;
     padding: 0 16px;
+    white-space: normal;
   }
 }

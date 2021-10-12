@@ -5,11 +5,13 @@
   justify-content: space-between;
   align-items: flex-end;
   margin: 92px 0 24px;
+  
 }
 
 @media (max-width: 768px) {
-  .footer__links {
+  .footer{
     margin: 88px 0 24px;
+    padding-left: 24px;
   }
 }
 
@@ -20,5 +22,6 @@
     margin: 64px 0 24px;
     justify-content: flex-end;
     align-items: flex-start;
+    padding-left: 16px;
   }
 }
