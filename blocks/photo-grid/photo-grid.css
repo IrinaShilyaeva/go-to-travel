@@ -1,17 +1,17 @@
 .photo-grid {
-    max-width: 1184px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 16px;
+  max-width: 1184px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
 }
 
 @media (max-width: 1024px) {
-    .photo-grid {
-      max-width: 928px;
-      gap: 14px;
-    }
+  .photo-grid {
+    max-width: 928px;
+    gap: 14px;
+  }
 }
 
 @media (max-width: 768px) {

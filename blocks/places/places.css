@@ -1,19 +1,19 @@
 .places {
-    margin: 0;
-    padding: 92px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin: 0;
+  padding: 92px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-    .places {
-        padding: 88px 24px 90px;
+  .places {
+    padding: 88px 24px 90px;
     }
 }
 
 @media (max-width: 320px) {
-    .places {
-        padding: 64px 0 66px;
-    }
+   .places {
+    padding: 64px 0 66px;
+  }
 }

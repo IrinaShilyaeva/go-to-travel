@@ -4,15 +4,9 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: white;
+  margin-top: 12px;
 }
 
 .place__link:hover {
   opacity: 0.8;
 }
-
-
-@media (max-width: 768px) {
-  .place__link {
-    margin-top: 12px;
-  }
-} 

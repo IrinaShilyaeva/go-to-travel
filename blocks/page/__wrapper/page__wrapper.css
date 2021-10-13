@@ -1,25 +1,13 @@
 .page__wrapper {
-    max-width: calc(100% - (48px * 2));
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
+  max-width: calc(100% - (48px * 2));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
-    .page__wrapper {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .page__wrapper {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 320px) {
-    .page__wrapper {
-        max-width: 100%;
-    }
+  .page__wrapper {
+    max-width: 100%;
+  }
 }
