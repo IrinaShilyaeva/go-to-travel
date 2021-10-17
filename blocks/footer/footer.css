@@ -21,9 +21,18 @@
   }
 }
 
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    margin: 64px 0 24px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 16px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer {
-    display: flex;
     flex-direction: column;
     margin: 64px 0 24px;
     justify-content: flex-end;

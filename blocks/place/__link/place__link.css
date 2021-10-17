@@ -5,6 +5,7 @@
   text-decoration-line: underline;
   color: white;
   margin-top: 12px;
+  width: 100%;
 }
 
 .place__link:hover {

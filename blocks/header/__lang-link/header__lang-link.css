@@ -5,6 +5,12 @@
   color: #FFFFFF;
   margin: 0 0 6px;
   padding-left: 18px;
+  text-decoration: none;
+}
+
+.header__lang-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {
