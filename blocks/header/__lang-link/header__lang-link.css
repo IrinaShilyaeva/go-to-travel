@@ -6,6 +6,7 @@
   margin: 0 0 6px;
   padding-left: 18px;
   text-decoration: none;
+  list-style: none;
 }
 
 .header__lang-link:hover {

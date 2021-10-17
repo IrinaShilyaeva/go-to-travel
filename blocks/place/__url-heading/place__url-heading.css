@@ -5,7 +5,7 @@
   color: #AAAAAA;
   letter-spacing: 2px;
   margin: 0;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
