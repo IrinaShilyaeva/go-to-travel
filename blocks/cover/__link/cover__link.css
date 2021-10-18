@@ -9,11 +9,6 @@
   color: white;
 }
 
-.cover__link:hover {
-  opacity: 0.8;
-  transition: opacity 0.3s linear;
-}
-
 @media (max-width: 1024px) {
   .cover__link {
     min-height: 640px;
